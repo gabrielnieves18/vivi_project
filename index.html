@@ -5,7 +5,12 @@
 <head>
 	<title>The Girl in the Spider's Web</title>
 
-	<meta charset="UFC-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta name="copyright" content="All copyright belongs to Viviana Freytes Ponce" />
+	<meta name="description" content="school project for extra credits" />
+	<meta name="keywords" content="movie, movies, cinema, The Girl in the Spider's Web, girl, hollywood" />
+
 
 	<link rel="Stylesheet" type= "text/css" href="css/index.css" />
 	<link rel="Stylesheet" type= "text/css" href="css/navigation.css" />
@@ -15,7 +20,7 @@
 	<script src="js/modal/nav_bar.js"></script>
 	<script>
 		document.addEventListener("DOMContentLoaded", function(event) {
-  		insert_nav_bar("index_navigation", NAV_BAR_HOME);
+  		insert_nav_bar("index_navigation", NAV_BAR_SUSCRIPTION);
 		});
 	</script>
 </head>
@@ -33,30 +38,15 @@
 
 	<section id="index_navigation"></section>
 
-	<aside class= "RETO_LA TRAVIATA">
+	<section class="container">
 		<img src="img/Caratula.jpg">
-	</aside>
-
-	<article>
-		<form action="/action_page.php">
-			<span>First name:</span><br>
-			<input type="text" name="firstname">
-			<br>
-			Last name:<br>
-			<input type="text" name="lastname">
-			<br><br>
-			Email:<br>
-			<input type="text" name="Email">
-			<br>
-			Age:<br>
-			<input type="text" name="Age">
-			<br><br>
-			Why do you think you should win?:<br>
-			<input type="text" name="Why do you think you should win?">
-			<br><br>
-			<input type="submit">
-		</form>
-	</article>
+		<div class="container_vertical">
+			<p>Click the link below for a chance to win free tickets to this blockbuster movie!</p>
+			<a class="button" style="background: transparent;" href="https://mailchi.mp/d1c8fba86396/ticket_sub">
+				<button class="button">Get Free Tickets!</button>
+			</a>
+		</div>
+	</section>
 
 	<section id="footer">
 		<footer>
