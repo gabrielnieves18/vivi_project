@@ -1,0 +1,56 @@
+body{
+	background-color: #FAFAFA;
+	background-size: 3000px;
+}
+
+/*----------entrada------------*/
+h1{
+	color: #666666;
+	margin-top: 50px;
+	margin-left: 100px;
+	font-size: 20px;
+	font-family: "Century Gothic thin","helvetica thin","futura thin","arial thin";
+}
+
+h2{
+	color: #666666;
+	margin-left: 100px;
+	margin-bottom: 10px;
+	font-size: 35px;
+	font-family: "Century Gothic thin","helvetica thin","futura thin","arial thin";
+}
+h3{
+	color: #666666;
+	margin-left: 100px;
+	font-size: 30px;
+	font-family: "Century Gothic thin","helvetica thin","futura thin","arial thin";
+}
+h5{
+	color: #666666;
+	margin-left: 100px;
+	font-size: 15px;
+	font-family: "Century Gothic thin","helvetica thin","futura thin","arial thin";
+}
+
+p{
+	color:#666666;
+	font-size: 18px;
+	text-align: justify;
+	text-justify: inter-word;
+	margin-left: 100px;
+	margin-right: 180px;
+	margin-bottom: 30px;
+	font-family:"Century Gothic thin","helvetica thin","futura thin","arial thin";
+}
+
+/*----------imagenes------------*/
+
+img {
+    display: block;
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 20%;
+    border-radius: 5px;
+    border: 1px;
+    float: left;
+ }

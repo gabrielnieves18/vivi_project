@@ -1,0 +1,43 @@
+/*----------navigation------------*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+  margin: 14px 44px 44px 14px;
+  text-align: center;
+  width: 100%
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	color:#666666;
+	font-family: Century Gothic thin,"helvetica thin","futura thin","arial thin";
+	font-size: 18px;
+	padding: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: rgba(191,149,90,0.95);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	color: #ff0031;
+	text-align: center;
+	font-family: Century Gothic,"helvetica","futura","arial";
+	font-weight: 500;
+}
+
+.topnav ul {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav li a {
+    display: inline-flex;
+}
